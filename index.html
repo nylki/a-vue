@@ -5,12 +5,18 @@
   <title></title>
   <script src="node_modules/vue/dist/vue.js" charset="utf-8"></script>
   <script src="node_modules/aframe/dist/aframe-master.js" charset="utf-8"></script>
+  <style media="screen">
+    a-scene {
+      width: 80vw;
+      height: 80vh;
+    }
+  </style>
 </head>
 <body>
   <div id="app">
     <input type="text" name="" :value="message" @input="handleTextInput">
 
-    <a-scene id="scene">
+    <a-scene embedded id="scene">
 
       <template v-for="cube in cubes">
         <a-box :color="cube.color" :position="cube.position"> </a-box>
