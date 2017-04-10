@@ -1,0 +1,27 @@
+{
+  "name": "a-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": " http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nylki/a-vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nylki/a-vue/issues"
+  },
+  "homepage": "https://github.com/nylki/a-vue#readme",
+  "dependencies": {
+    "aframe": "^0.5.0",
+    "vue": "^2.2.6"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
